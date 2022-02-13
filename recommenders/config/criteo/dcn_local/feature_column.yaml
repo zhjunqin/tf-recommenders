@@ -1,0 +1,401 @@
+i1_numeric:
+  type: numeric_column 
+  key: i1 
+  shape: [1,]
+  default_value: 0
+  data_type: int64
+  normalizer_fn:
+    type: QUANTILE
+
+i2_numeric:
+  type: numeric_column 
+  key: i2 
+  shape: [1,]
+  default_value: 0
+  data_type: int64
+  normalizer_fn:
+    type: QUANTILE
+
+i3_numeric:
+  type: numeric_column 
+  key: i3 
+  shape: [1,]
+  default_value: 0
+  data_type: int64
+  normalizer_fn:
+    type: QUANTILE
+
+i4_numeric:
+  type: numeric_column 
+  key: i4 
+  shape: [1,]
+  default_value: 0
+  data_type: int64
+  normalizer_fn:
+    type: QUANTILE
+
+i5_numeric:
+  type: numeric_column 
+  key: i5 
+  shape: [1,]
+  default_value: 0
+  data_type: int64
+  normalizer_fn:
+    type: QUANTILE
+
+i6_numeric:
+  type: numeric_column 
+  key: i6 
+  shape: [1,]
+  default_value: 0
+  data_type: int64
+  normalizer_fn:
+    type: QUANTILE
+
+i7_numeric:
+  type: numeric_column 
+  key: i7 
+  shape: [1,]
+  default_value: 0
+  data_type: int64
+  normalizer_fn:
+    type: QUANTILE
+
+i8_numeric:
+  type: numeric_column 
+  key: i8 
+  shape: [1,]
+  default_value: 0
+  data_type: int64
+  normalizer_fn:
+    type: QUANTILE
+
+i9_numeric:
+  type: numeric_column 
+  key: i9 
+  shape: [1,]
+  default_value: 0
+  data_type: int64
+  normalizer_fn:
+    type: QUANTILE
+
+i10_numeric:
+  type: numeric_column 
+  key: i10 
+  shape: [1,]
+  default_value: 0
+  data_type: int64
+  normalizer_fn:
+    type: QUANTILE
+
+i11_numeric:
+  type: numeric_column 
+  key: i11 
+  shape: [1,]
+  default_value: 0
+  data_type: int64
+  normalizer_fn:
+    type: QUANTILE
+
+i12_numeric:
+  type: numeric_column 
+  key: i12 
+  shape: [1,]
+  default_value: 0
+  data_type: int64
+  normalizer_fn:
+    type: QUANTILE
+
+i13_numeric:
+  type: numeric_column 
+  key: i13 
+  shape: [1,]
+  default_value: 0
+  data_type: int64
+  normalizer_fn:
+    type: QUANTILE
+
+c1_hash:
+  type: categorical_column_with_hash_bucket
+  key: c1 
+  hash_bucket_size: 100
+  data_type: string
+
+c2_hash:
+  type: categorical_column_with_hash_bucket
+  key: c2
+  hash_bucket_size: 100
+  data_type: string
+
+c3_hash:
+  type: categorical_column_with_hash_bucket
+  key: c3
+  hash_bucket_size: 100
+  data_type: string
+
+c4_hash:
+  type: categorical_column_with_hash_bucket
+  key: c4
+  hash_bucket_size: 100
+  data_type: string
+
+c5_hash:
+  type: categorical_column_with_hash_bucket
+  key: c5
+  hash_bucket_size: 100
+  data_type: string
+
+c6_hash:
+  type: categorical_column_with_hash_bucket
+  key: c6
+  hash_bucket_size: 100
+  data_type: string
+
+c7_hash:
+  type: categorical_column_with_hash_bucket
+  key: c7
+  hash_bucket_size: 100
+  data_type: string
+
+c8_hash:
+  type: categorical_column_with_hash_bucket
+  key: c8 
+  hash_bucket_size: 100
+  data_type: string
+
+c9_hash:
+  type: categorical_column_with_hash_bucket
+  key: c9
+  hash_bucket_size: 100
+  data_type: string
+
+c10_hash:
+  type: categorical_column_with_hash_bucket
+  key: c10
+  data_type: string
+
+c11_hash:
+  type: categorical_column_with_hash_bucket
+  key: c11
+  hash_bucket_size: 100
+  data_type: string
+
+c12_hash:
+  type: categorical_column_with_hash_bucket
+  key: c12
+  hash_bucket_size: 100
+  data_type: string
+
+c13_hash:
+  type: categorical_column_with_hash_bucket
+  key: c13
+  hash_bucket_size: 100
+  data_type: string
+
+c14_hash:
+  type: categorical_column_with_hash_bucket
+  key: c14
+  hash_bucket_size: 100
+  data_type: string
+
+c15_hash:
+  type: categorical_column_with_hash_bucket
+  key: c15
+  hash_bucket_size: 100
+  data_type: string
+
+c16_hash:
+  type: categorical_column_with_hash_bucket
+  key: c16
+  hash_bucket_size: 100
+  data_type: string
+
+c17_hash:
+  type: categorical_column_with_hash_bucket
+  key: c17
+  hash_bucket_size: 100
+  data_type: string
+
+c18_hash:
+  type: categorical_column_with_hash_bucket
+  key: c18
+  hash_bucket_size: 100
+  data_type: string
+
+c19_hash:
+  type: categorical_column_with_hash_bucket
+  key: c19
+  hash_bucket_size: 100
+  data_type: string
+
+c20_hash:
+  type: categorical_column_with_hash_bucket
+  key: c20
+  hash_bucket_size: 100
+  data_type: string
+
+c21_hash:
+  type: categorical_column_with_hash_bucket
+  key: c21
+  hash_bucket_size: 100
+  data_type: string
+
+c22_hash:
+  type: categorical_column_with_hash_bucket
+  key: c22
+  hash_bucket_size: 100
+  data_type: string
+
+c23_hash:
+  type: categorical_column_with_hash_bucket
+  key: c23
+  hash_bucket_size: 100
+  data_type: string
+
+c24_hash:
+  type: categorical_column_with_hash_bucket
+  key: c24
+  hash_bucket_size: 100
+  data_type: string
+
+c25_hash:
+  type: categorical_column_with_hash_bucket
+  key: c25
+  hash_bucket_size: 100
+  data_type: string
+
+c26_hash:
+  type: categorical_column_with_hash_bucket
+  key: c26
+  hash_bucket_size: 100
+  data_type: string
+
+c1_embedding:
+  type: embedding_column
+  dimension: 8
+  depends: ['c1_hash']
+
+c2_embedding:
+  type: embedding_column
+  dimension: 8
+  depends: ['c2_hash']
+
+c3_embedding:
+  type: embedding_column
+  dimension: 8
+  depends: ['c3_hash']
+
+c4_embedding:
+  type: embedding_column
+  dimension: 8
+  depends: ['c4_hash']
+
+c5_embedding:
+  type: embedding_column
+  dimension: 8
+  depends: ['c5_hash']
+
+c6_embedding:
+  type: embedding_column
+  dimension: 8
+  depends: ['c6_hash']
+
+c7_embedding:
+  type: embedding_column
+  dimension: 8
+  depends: ['c7_hash']
+
+c8_embedding:
+  type: embedding_column
+  dimension: 8
+  depends: ['c8_hash']
+
+c9_embedding:
+  type: embedding_column
+  dimension: 8
+  depends: ['c9_hash']
+
+c10_embedding:
+  type: embedding_column
+  dimension: 8
+  depends: ['c10_hash']
+
+c11_embedding:
+  type: embedding_column
+  depends: ['c11_hash']
+
+c12_embedding:
+  type: embedding_column
+  dimension: 8
+  depends: ['c12_hash']
+
+c13_embedding:
+  type: embedding_column
+  dimension: 8
+  depends: ['c13_hash']
+
+c14_embedding:
+  type: embedding_column
+  dimension: 8
+  depends: ['c14_hash']
+
+c15_embedding:
+  type: embedding_column
+  dimension: 8
+  depends: ['c15_hash']
+
+c16_embedding:
+  type: embedding_column
+  dimension: 8
+  depends: ['c16_hash']
+
+c17_embedding:
+  type: embedding_column
+  dimension: 8
+  depends: ['c17_hash']
+
+c18_embedding:
+  type: embedding_column
+  dimension: 8
+  depends: ['c18_hash']
+
+c19_embedding:
+  type: embedding_column
+  dimension: 8
+  depends: ['c19_hash']
+
+c20_embedding:
+  type: embedding_column
+  dimension: 8
+  depends: ['c20_hash']
+
+c21_embedding:
+  type: embedding_column
+  dimension: 8
+  depends: ['c21_hash']
+
+c22_embedding:
+  type: embedding_column
+  dimension: 8
+  depends: ['c22_hash']
+
+c23_embedding:
+  type: embedding_column
+  dimension: 8
+  depends: ['c23_hash']
+
+c24_embedding:
+  type: embedding_column
+  dimension: 8
+  depends: ['c24_hash']
+
+c25_embedding:
+  type: embedding_column
+  dimension: 8
+  depends: ['c25_hash']
+
+c26_embedding:
+  type: embedding_column
+  dimension: 8
+  depends: ['c26_hash']
+

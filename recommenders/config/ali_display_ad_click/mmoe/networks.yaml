@@ -1,0 +1,35 @@
+
+
+user_input_layer: 
+  - user_id_embedding
+  - cms_segid_embedding
+  - cms_group_id_indicator
+  - final_gender_code_indicator
+  - age_level_indicator
+  - pvalue_level_indicator
+  - shopping_level_indicator
+  - occupation_indicator
+  - new_user_class_level_indicator
+item_input_layer:
+  - adgroup_id_embedding
+  - cate_id_embedding
+  - customer_id_embedding
+  - campaign_id_embedding
+  - brand_id_embedding
+  - pid_indicator
+input_layer:
+  - user_input_layer
+  - item_input_layer
+
+input_hidden_layers: []
+experts_layers: [512]
+num_experts: 5
+towers:
+  - name: tower_0
+    hidden_layers: [256, 128]
+    output_weight: 1.0
+    target: clk
+  - name: tower_1
+    hidden_layers: [256, 128]
+    output_weight: 1.0
+    target: price

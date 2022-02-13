@@ -1,0 +1,160 @@
+
+
+user_id_hash:
+  type: categorical_column_with_hash_bucket
+  key: user_id
+  hash_bucket_size: 1061768
+  data_type: int64
+
+cms_segid_hash:
+  type: categorical_column_with_hash_bucket
+  key: cms_segid
+  hash_bucket_size: 97
+  data_type: int64
+
+cms_group_id_identity:
+  type: categorical_column_with_identity
+  key: cms_group_id
+  num_buckets: 13
+  default_value: 0
+
+final_gender_code_identity:
+  type: categorical_column_with_identity
+  key: final_gender_code
+  num_buckets: 2
+  default_value: 0
+ 
+age_level_identity:
+  type: categorical_column_with_identity
+  key: age_level
+  num_buckets: 7
+  default_value: 0
+
+pvalue_level_identity:
+  type: categorical_column_with_identity
+  key: pvalue_level
+  num_buckets: 4
+  default_value: 0
+
+shopping_level_identity:
+  type: categorical_column_with_identity
+  key: shopping_level
+  num_buckets: 3
+  default_value: 0
+
+occupation_identity:
+  type: categorical_column_with_identity
+  key: occupation
+  num_buckets: 2
+  default_value: 0
+
+new_user_class_level_identity:
+  type: categorical_column_with_identity
+  key: new_user_class_level
+  num_buckets: 5
+  default_value: 0
+
+
+adgroup_id_hash:
+  type: categorical_column_with_hash_bucket
+  key: adgroup_id
+  hash_bucket_size: 827009
+  data_type: int64
+
+cate_id_hash:
+  type: categorical_column_with_hash_bucket
+  key: cate_id
+  hash_bucket_size: 6725
+  data_type: int64
+
+customer_id_hash:
+  type: categorical_column_with_hash_bucket
+  key: customer_id
+  hash_bucket_size: 252841
+  data_type: int64
+
+campaign_id_hash:
+  type: categorical_column_with_hash_bucket
+  key: campaign_id
+  hash_bucket_size: 417656
+  data_type: int64
+
+brand_id_hash:
+  type: categorical_column_with_hash_bucket
+  key: brand_id
+  hash_bucket_size: 98772
+  data_type: int64
+
+pid_vocabulary:
+  type: categorical_column_with_vocabulary_list
+  key: pid
+  vocabulary_list: ['430548_1007', '430539_1007']
+  data_type: string
+
+price_numeric:
+  type: numeric_column 
+  key: price
+  shape: [1,]
+  default_value: 0
+  data_type: float32
+
+user_id_embedding:
+  type: embedding_column
+  depends: ['user_id_hash']
+
+cms_segid_embedding:
+  type: embedding_column
+  depends: ['cms_segid_hash']
+
+cms_group_id_indicator:
+  type: indicator_column
+  depends: ['cms_group_id_identity']
+
+final_gender_code_indicator:
+  type: indicator_column
+  depends: ['final_gender_code_identity']
+
+age_level_indicator:
+  type: indicator_column
+  depends: ['age_level_identity']
+
+pvalue_level_indicator:
+  type: indicator_column
+  depends: ['pvalue_level_identity']
+
+shopping_level_indicator:
+  type: indicator_column
+  depends: ['shopping_level_identity']
+
+occupation_indicator:
+  type: indicator_column
+  depends: ['occupation_identity']
+
+new_user_class_level_indicator:
+  type: indicator_column
+  depends: ['new_user_class_level_identity']
+
+adgroup_id_embedding:
+  type: embedding_column
+  depends: ['adgroup_id_hash']
+
+cate_id_embedding:
+  type: embedding_column
+  depends: ['cate_id_hash']
+
+customer_id_embedding:
+  type: embedding_column
+  depends: ['customer_id_hash']
+
+campaign_id_embedding:
+  type: embedding_column
+  depends: ['campaign_id_hash']
+
+brand_id_embedding:
+  type: embedding_column
+  depends: ['brand_id_hash']
+
+pid_indicator:
+  type: indicator_column
+  depends: ['pid_vocabulary']
+

@@ -1,0 +1,27 @@
+
+
+user_input: 
+  - cms_group_id_indicator
+  - final_gender_code_indicator
+  - age_level_indicator
+  - pvalue_level_indicator
+  - shopping_level_indicator
+  - occupation_indicator
+  - new_user_class_level_indicator
+  - user_id_embedding
+  - cms_segid_embedding
+
+item_input:
+  - adgroup_id_embedding
+  - cate_id_embedding
+  - customer_id_embedding
+  - campaign_id_embedding
+  - brand_id_embedding
+  - pid_indicator
+  - price_numeric
+
+num_experts: 4
+projection_dim: 64
+cross_layer_num: 3
+dnn_hidden_layers: [512, 256, 128]
+

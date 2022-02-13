@@ -1,0 +1,282 @@
+
+# Labels
+label:
+  input_type: label
+  length_type: FixedLenFeature
+  data_type: int64
+  shape: [1]
+
+i1:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: int64
+  shape: []
+  default_value: 1
+
+i2:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: int64
+  shape: []
+  default_value: 4
+
+i3:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: int64
+  shape: []
+  default_value: 7
+
+i4:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: int64
+  shape: []
+  default_value: 5
+
+i5:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: int64
+  shape: []
+  default_value: 2880
+
+i6:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: int64
+  shape: []
+  default_value: 34
+
+i7:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: int64
+  shape: []
+  default_value: 4
+
+i8:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: int64
+  shape: []
+  default_value: 8
+
+i9:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: int64
+  shape: []
+  default_value: 40
+
+i10:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: int64
+  shape: []
+  default_value: 1
+
+i11:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: int64
+  shape: []
+  default_value: 1
+
+i12:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: int64
+  shape: []
+  default_value: 0
+
+i13:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: int64
+  shape: []
+  default_value: 5
+
+
+c1:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: string
+  shape: []
+  default_value: "unknown"
+
+c2:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: string
+  shape: []
+  default_value: "unknown"
+
+c3:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: string
+  shape: []
+  default_value: "unknown"
+
+c4:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: string
+  shape: []
+  default_value: "unknown"
+
+c5:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: string
+  shape: []
+  default_value: "unknown"
+
+c6:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: string
+  shape: []
+  default_value: "unknown"
+
+c7:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: string
+  shape: []
+  default_value: "unknown"
+
+c8:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: string
+  shape: []
+  default_value: "unknown"
+
+c9:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: string
+  shape: []
+  default_value: "unknown"
+
+c10:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: string
+  shape: []
+  default_value: "unknown"
+
+c11:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: string
+  shape: []
+  default_value: "unknown"
+
+c12:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: string
+  shape: []
+  default_value: "unknown"
+
+c13:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: string
+  shape: []
+  default_value: "unknown"
+
+c14:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: string
+  shape: []
+  default_value: "unknown"
+
+c15:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: string
+  shape: []
+  default_value: "unknown"
+
+c16:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: string
+  shape: []
+  default_value: "unknown"
+
+c17:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: string
+  shape: []
+  default_value: "unknown"
+
+c18:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: string
+  shape: []
+  default_value: "unknown"
+
+c19:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: string
+  shape: []
+  default_value: "unknown"
+
+c20:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: string
+  shape: []
+  default_value: "unknown"
+
+c21:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: string
+  shape: []
+  default_value: "unknown"
+
+c22:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: string
+  shape: []
+  default_value: "unknown"
+
+c23:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: string
+  shape: []
+  default_value: "unknown"
+
+c24:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: string
+  shape: []
+  default_value: "unknown"
+
+c25:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: string
+  shape: []
+  default_value: "unknown"
+
+c26:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: string
+  shape: []
+  default_value: "unknown"
+

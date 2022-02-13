@@ -1,0 +1,50 @@
+
+
+user_input: 
+  - i1_numeric
+  - i2_numeric
+  - i3_numeric
+  - i4_numeric
+  - i5_numeric
+  - i6_numeric
+  - i7_numeric
+  - i8_numeric
+  - i9_numeric
+  - c1_embedding
+  - c2_embedding
+  - c3_embedding
+  - c4_embedding
+  - c5_embedding
+  - c6_embedding
+  - c7_embedding
+  - c8_embedding
+  - c9_embedding
+
+item_input:
+  - i10_numeric
+  - i11_numeric
+  - i12_numeric
+  - i13_numeric
+  - c10_embedding
+  - c11_embedding
+  - c12_embedding
+  - c13_embedding
+  - c14_embedding
+  - c15_embedding
+  - c16_embedding
+  - c17_embedding
+  - c18_embedding
+  - c19_embedding
+  - c20_embedding
+  - c21_embedding
+  - c22_embedding
+  - c23_embedding
+  - c24_embedding
+  - c25_embedding
+  - c26_embedding
+
+num_experts: 4
+projection_dim: 64
+cross_layer_num: 3
+dnn_hidden_layers: [256, 128, 64]
+label_name: label

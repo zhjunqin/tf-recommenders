@@ -1,0 +1,123 @@
+
+# Labels
+clk:
+  input_type: label
+  length_type: FixedLenFeature
+  data_type: int64
+  shape: [1]
+
+# User features
+user_id:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: int64
+  shape: []
+
+cms_segid:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: int64
+  shape: []
+  default_value: 0
+
+cms_group_id:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: int64
+  shape: []
+  default_value: 0
+
+final_gender_code:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: int64
+  shape: []
+  default_value: 0
+
+cms_segid:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: int64
+  shape: []
+  default_value: 0
+
+age_level:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: int64
+  shape: []
+  default_value: 0
+
+pvalue_level:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: int64
+  shape: []
+  default_value: 0
+
+shopping_level:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: int64
+  shape: []
+  default_value: 0
+
+occupation:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: int64
+  shape: []
+  default_value: 0
+
+new_user_class_level:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: int64
+  shape: []
+  default_value: 0
+
+
+# Item features
+adgroup_id:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: int64
+  shape: []
+
+cate_id:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: int64
+  shape: []
+  default_value: 0
+
+campaign_id:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: int64
+  shape: []
+  default_value: 0
+
+customer_id:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: int64
+  shape: []
+  default_value: 0
+
+pid:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: string
+  shape: []
+
+brand_id:
+  input_type: feature
+  length_type: VarLenFeature
+  data_type: int64
+
+price:
+  input_type: feature
+  length_type: FixedLenFeature
+  data_type: float32
+  shape: []

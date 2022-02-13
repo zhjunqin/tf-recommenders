@@ -1,0 +1,75 @@
+
+
+wide_columns: 
+  - c1_hash
+  - c2_hash
+  - c3_hash
+  - c4_hash
+  - c5_hash
+  - c6_hash
+  - c7_hash
+  - c8_hash
+  - c9_hash
+  - c10_hash
+  - c11_hash
+  - c12_hash
+  - c13_hash
+  - c14_hash
+  - c15_hash
+  - c16_hash
+  - c17_hash
+  - c18_hash
+  - c19_hash
+  - c20_hash
+  - c21_hash
+  - c22_hash
+  - c23_hash
+  - c24_hash
+  - c25_hash
+  - c26_hash
+
+
+deep_columns:
+  - i1_numeric
+  - i2_numeric
+  - i3_numeric
+  - i4_numeric
+  - i5_numeric
+  - i6_numeric
+  - i7_numeric
+  - i8_numeric
+  - i9_numeric
+  - i10_numeric
+  - i11_numeric
+  - i12_numeric
+  - i13_numeric
+  - c1_embedding
+  - c2_embedding
+  - c3_embedding
+  - c4_embedding
+  - c5_embedding
+  - c6_embedding
+  - c7_embedding
+  - c8_embedding
+  - c9_embedding
+  - c10_embedding
+  - c11_embedding
+  - c12_embedding
+  - c13_embedding
+  - c14_embedding
+  - c15_embedding
+  - c16_embedding
+  - c17_embedding
+  - c18_embedding
+  - c19_embedding
+  - c20_embedding
+  - c21_embedding
+  - c22_embedding
+  - c23_embedding
+  - c24_embedding
+  - c25_embedding
+  - c26_embedding
+
+dnn_hidden_layers: [256, 128, 64]
+label_name: label
+
